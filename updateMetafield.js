@@ -1,8 +1,8 @@
 import fetch from "node-fetch";
 
 async function updateOrderMetafield(orderId, barcodeUrl) {
-    const SHOP = "your-shop.myshopify.com";
-    const TOKEN = "your-admin-token";
+    const SHOP = "house-of-dates-company.myshopify.com";
+    const TOKEN = "15c758d8e06968aa7e3feec19e7c9d76";
 
     const url = `https://${SHOP}/admin/api/2025-10/orders/${orderId}/metafields.json`;
 
