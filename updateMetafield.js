@@ -28,6 +28,6 @@ async function updateOrderMetafield(orderId, barcodeUrl) {
 }
 
 // مثال: تحديث Order
-updateOrderMetafield(123456, "https://your-app.onrender.com/barcode/1001")
+updateOrderMetafield(123456, "https://shopify-barcode-server.onrender.com/barcode/1001")
   .then(console.log)
   .catch(console.error);
